@@ -1,0 +1,146 @@
+$black: #303030;
+$whte: whitesmoke;
+
+body {
+  background: $black;
+  width: 100vw;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  max-width: 768px;
+  background-color: aliceblue;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  & > * {
+    width: 100%;
+    background: rgb(94, 94, 94);
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+    .logo {
+      z-index: 1;
+    }
+
+    .checkbox {
+      display: none;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+    }
+  }
+
+  section {
+    height: 620px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+
+  }
+
+  main {
+
+
+    header {
+
+      .checkbox {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        gap: 4px;
+
+        span {
+          display: block;
+          width: 28px;
+          height: 3px;
+          background: white;
+          border-radius: 3px;
+          z-index: 1;
+          transition: .3s;
+        }
+
+        span:nth-child(2) {
+          width: 17px;
+        }
+        span:nth-child(3) {
+          width: 11px;
+        }
+      }
+
+      .checkbox-checked {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        span {
+          display: block;
+          width: 28px;
+          height: 3px;
+          background: white;
+          border-radius: 3px;
+          z-index: 1;
+          margin: -1.5px;
+          transition: .3s;
+        }
+
+        span:nth-child(1) {
+          transform: rotate(-45deg);
+        }
+        span:nth-child(2) {
+          background: transparent;
+        }
+        span:nth-child(3) {
+          transform: rotate(45deg);
+        }
+      }
+
+      nav {
+        position: fixed;
+        top: 0;
+        right: 100%;
+        width: 100%;
+        height: 100vh;
+        background: red;
+        transition: .2s;
+      }
+
+      .nav-checked {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100vh;
+        background: red;
+      }
+    }
+
+    section {
+      height: 100vh;
+    }
+  }
+}
