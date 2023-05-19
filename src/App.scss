@@ -1,0 +1,116 @@
+@import "./variables.scss";
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  section {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: $dark-grey;
+
+    .project-buttons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+
+      button {
+        margin-top: 20px;
+        margin-bottom: 40px;
+        background: $white;
+        color: $dark-grey;
+        border: none;
+        font-size: large;
+        font-weight: 600;
+        padding: 8px;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+
+      .button-active {
+        color: $white;
+        background: $dark-grey;
+        outline: 2px solid $white;
+      }
+    }
+
+    .projects {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px;
+    }
+
+    .contact {
+      width: 50%;
+      max-width: 600px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+
+      p {
+        text-align: center;
+      }
+
+      .mail {
+        font-style: italic;
+        font-weight: bold;
+
+        span {
+          font-style: normal;
+          font-weight: normal;
+        }
+      }
+
+      button {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        background: $white;
+        color: $dark-grey;
+        border: none;
+        font-size: larger;
+        font-weight: 600;
+        padding: 10px;
+        cursor: pointer;
+      }
+
+      div {
+        display: flex;
+        gap: 15px;
+
+        img {
+          width: 30px;
+          color: $white;
+          cursor: pointer;
+        }
+      }
+    }
+
+    &:nth-child(1) {
+      background-color: $black;
+
+      div {
+        width: 50%;
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        h1 {
+          font-size: x-large;
+        }
+      }
+    }
+  }
+}

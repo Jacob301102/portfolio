@@ -1,0 +1,62 @@
+{
+  "commercial": [
+    {
+      "image": "divan.jpg",
+      "title": "commercial",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus ante a sem vulputate, non.",
+      "technologies": ["React", "Sass"],
+      "link": "https://divano.ge"
+    },
+    {
+      "image": "divan.jpg",
+      "title": "commercial",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus ante a sem vulputate, non.",
+      "technologies": ["React", "Sass"],
+      "link": "https://divano.ge"
+    },
+    {
+      "image": "divan.jpg",
+      "title": "commercial",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus ante a sem vulputate, non.",
+      "technologies": ["React", "Sass"],
+      "link": "https://divano.ge"
+    },
+    {
+      "image": "divan.jpg",
+      "title": "divan",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus ante a sem vulputate, non.",
+      "technologies": ["React", "Sass"],
+      "link": "https://divano.ge"
+    }
+  ],
+  "pet": [
+    {
+      "image": "divan.jpg",
+      "title": "divan",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus ante a sem vulputate, non.",
+      "technologies": ["React", "Sass"],
+      "link": "https://divano.ge"
+    },
+    {
+      "image": "divan.jpg",
+      "title": "divan",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus ante a sem vulputate, non.",
+      "technologies": ["React", "Sass"],
+      "link": "https://divano.ge"
+    },
+    {
+      "image": "divan.jpg",
+      "title": "divan",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus ante a sem vulputate, non.",
+      "technologies": ["React", "Sass"],
+      "link": "https://divano.ge"
+    },
+    {
+      "image": "divan.jpg",
+      "title": "divan",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus ante a sem vulputate, non.",
+      "technologies": ["React", "Sass"],
+      "link": "https://divano.ge"
+    }
+  ]
+}
