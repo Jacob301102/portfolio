@@ -39,7 +39,7 @@ const App = () => {
           <div>
             <h1>Hello, I&rsquo;m Jacob!</h1>
             <p>
-              I&rsquo;m a student and a junior web developer with a passion for
+              I&rsquo;m a student and an ambitious web developer with a passion for
               building beautiful and functional websites. I have two year
               experience working with{" "}
               <span style={{ color: "#DD4B25" }}>HTML</span>,{" "}
