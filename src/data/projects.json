@@ -1,62 +1,27 @@
 {
   "commercial": [
     {
-      "image": "divan.jpg",
-      "title": "commercial",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus ante a sem vulputate, non.",
-      "technologies": ["React", "Sass"],
-      "link": "https://divano.ge"
-    },
-    {
-      "image": "divan.jpg",
-      "title": "commercial",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus ante a sem vulputate, non.",
-      "technologies": ["React", "Sass"],
-      "link": "https://divano.ge"
-    },
-    {
-      "image": "divan.jpg",
-      "title": "commercial",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus ante a sem vulputate, non.",
-      "technologies": ["React", "Sass"],
-      "link": "https://divano.ge"
-    },
-    {
-      "image": "divan.jpg",
-      "title": "divan",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus ante a sem vulputate, non.",
-      "technologies": ["React", "Sass"],
-      "link": "https://divano.ge"
+      "image": "nope.png",
+      "title": "Task-Manager",
+      "description": "Full stack task manager app alike others, but much better",
+      "technologies": ["React", "Express", "MongoDB", "JWT", "Zustand"],
+      "link": ""
     }
   ],
   "pet": [
     {
-      "image": "divan.jpg",
-      "title": "divan",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus ante a sem vulputate, non.",
-      "technologies": ["React", "Sass"],
-      "link": "https://divano.ge"
+      "image": "weather.PNG",
+      "title": "Weather App",
+      "description": "One of the first projects.",
+      "technologies": ["React"],
+      "link": "https://melikoviweatherapp.netlify.app"
     },
     {
-      "image": "divan.jpg",
-      "title": "divan",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus ante a sem vulputate, non.",
-      "technologies": ["React", "Sass"],
-      "link": "https://divano.ge"
-    },
-    {
-      "image": "divan.jpg",
-      "title": "divan",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus ante a sem vulputate, non.",
-      "technologies": ["React", "Sass"],
-      "link": "https://divano.ge"
-    },
-    {
-      "image": "divan.jpg",
-      "title": "divan",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus ante a sem vulputate, non.",
-      "technologies": ["React", "Sass"],
-      "link": "https://divano.ge"
+      "image": "todo.PNG",
+      "title": "React-Todo",
+      "description": "I literally wrote it in 9 minutes as a challenge. Also it saves everything in the localStorage.",
+      "technologies": ["React", "Typescript", "Zustand", "Scss"],
+      "link": "https://jacob-react-todo.netlify.app"
     }
   ]
 }
